@@ -12,7 +12,7 @@ import (
 
 func main() {
 
-	fs := flagset.NewFlagSet("prettymaps")
+	fs := flagset.NewFlagSet("mbtiles")
 
 	server_uri := fs.String("server-uri", "http://localhost:8080", "A valid aaronland/go-http-server URI string.")
 	tiles_source := fs.String("tiles-source", "", "Path to the directory containing your MBTiles databases.")
